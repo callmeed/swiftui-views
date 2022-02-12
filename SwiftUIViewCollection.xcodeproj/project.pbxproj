@@ -14,6 +14,7 @@
 		C968AF8927AF44170085A14C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C968AF8827AF44170085A14C /* Preview Assets.xcassets */; };
 		C968AF9027AF8EDA0085A14C /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF8F27AF8EDA0085A14C /* AppStoreView.swift */; };
 		C968AF9227AF9A080085A14C /* SimpleViewWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */; };
+		C9EF95EB27B7649A00E6B1FB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF95EA27B7649A00E6B1FB /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C968AF8827AF44170085A14C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C968AF8F27AF8EDA0085A14C /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
 		C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewWithImage.swift; sourceTree = "<group>"; };
+		C9EF95EA27B7649A00E6B1FB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */,
 				C968AF8527AF44170085A14C /* Assets.xcassets */,
 				C968AF8727AF44170085A14C /* Preview Content */,
+				C9EF95EA27B7649A00E6B1FB /* WebView.swift */,
 			);
 			path = SwiftUIViewCollection;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				C968AF9227AF9A080085A14C /* SimpleViewWithImage.swift in Sources */,
 				C968AF8427AF44160085A14C /* ContentView.swift in Sources */,
 				C968AF9027AF8EDA0085A14C /* AppStoreView.swift in Sources */,
+				C9EF95EB27B7649A00E6B1FB /* WebView.swift in Sources */,
 				C968AF8227AF44160085A14C /* SwiftUIViewCollectionApp.swift in Sources */,
 				C902576427B042A700517099 /* ImagePickerView.swift in Sources */,
 			);

@@ -39,6 +39,9 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Say Cheese")) {
                     Text("Access camera and image picker")
                 }
+                NavigationLink(destination: WebView(url: URL(string: "https://www.shiny.sale/")!)) {
+                    Text("Open a URL in a web view")
+                }
             }
                 .navigationTitle("Navigation Title")
                 .navigationBarTitleDisplayMode(.large)
