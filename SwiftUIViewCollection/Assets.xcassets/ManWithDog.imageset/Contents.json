@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "casual-life-3d-man-sitting-with-dog-and-a-cup-of-coffee.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "casual-life-3d-man-sitting-with-dog-and-a-cup-of-coffee-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "casual-life-3d-man-sitting-with-dog-and-a-cup-of-coffee-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

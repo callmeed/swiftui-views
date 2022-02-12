@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C902576427B042A700517099 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902576327B042A700517099 /* ImagePickerView.swift */; };
 		C968AF8227AF44160085A14C /* SwiftUIViewCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF8127AF44160085A14C /* SwiftUIViewCollectionApp.swift */; };
 		C968AF8427AF44160085A14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF8327AF44160085A14C /* ContentView.swift */; };
 		C968AF8627AF44170085A14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C968AF8527AF44170085A14C /* Assets.xcassets */; };
 		C968AF8927AF44170085A14C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C968AF8827AF44170085A14C /* Preview Assets.xcassets */; };
+		C968AF9027AF8EDA0085A14C /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF8F27AF8EDA0085A14C /* AppStoreView.swift */; };
+		C968AF9227AF9A080085A14C /* SimpleViewWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C902576327B042A700517099 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		C968AF7E27AF44160085A14C /* SwiftUIViewCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViewCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C968AF8127AF44160085A14C /* SwiftUIViewCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewCollectionApp.swift; sourceTree = "<group>"; };
 		C968AF8327AF44160085A14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C968AF8527AF44170085A14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C968AF8827AF44170085A14C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C968AF8F27AF8EDA0085A14C /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
+		C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewWithImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				C968AF8127AF44160085A14C /* SwiftUIViewCollectionApp.swift */,
 				C968AF8327AF44160085A14C /* ContentView.swift */,
+				C902576327B042A700517099 /* ImagePickerView.swift */,
+				C968AF8F27AF8EDA0085A14C /* AppStoreView.swift */,
+				C968AF9127AF9A080085A14C /* SimpleViewWithImage.swift */,
 				C968AF8527AF44170085A14C /* Assets.xcassets */,
 				C968AF8727AF44170085A14C /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C968AF9227AF9A080085A14C /* SimpleViewWithImage.swift in Sources */,
 				C968AF8427AF44160085A14C /* ContentView.swift in Sources */,
+				C968AF9027AF8EDA0085A14C /* AppStoreView.swift in Sources */,
 				C968AF8227AF44160085A14C /* SwiftUIViewCollectionApp.swift in Sources */,
+				C902576427B042A700517099 /* ImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				DEVELOPMENT_TEAM = Y76HE52U8Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You can capture and upload pictures ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +314,7 @@
 				DEVELOPMENT_TEAM = Y76HE52U8Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You can capture and upload pictures ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
